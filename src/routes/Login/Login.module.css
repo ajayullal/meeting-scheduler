@@ -1,0 +1,30 @@
+.container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    background: #ffffff;
+}
+
+.loginFormContainer{
+    width: 500px;
+    height: 500px;
+    margin: auto auto;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.passwordField, .signInButton{
+    margin-top: 20px;
+}
+
+.heading{
+
+    margin-bottom: 24px;
+}

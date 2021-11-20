@@ -1,0 +1,23 @@
+.input{
+    width: 100%;
+    padding: 1em;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.error-border{
+    border: 1px solid #B00020;
+}
+
+.error{
+    color: #B00020;
+    margin-top: 6px;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+}

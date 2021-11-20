@@ -1,0 +1,59 @@
+.backdrop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(94 94 94 / 9%);
+    z-index: 999;
+    display: flex;
+}
+
+.modalContainer{
+    margin: auto;
+    background: white;
+    width: 30%;
+    min-height: 300px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.modalTitleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(225, 228, 232);
+}
+
+.modalTitle{
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.close{
+    margin-left: auto;
+    cursor: pointer;
+    user-select: none;
+}
+
+.meetingDetailsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.meetingDetailsCell{
+    flex-basis: 50%;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+.attendees{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,56 @@
+.name, .description{
+    margin-top: 20px;
+}
+
+.attendeesCntr{
+    width: 50%;
+}
+
+.attendeesHeader{
+    margin-bottom: 0px;
+}
+
+.attendeeDetailsCntr{
+    display: flex; 
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.addAttendeeBtn{
+    margin-bottom: auto;
+    flex-basis: 140px;
+    margin-left: 20px;
+}
+
+.mandatory{
+    margin-left: 10px;
+    margin-bottom: auto;
+    margin-top: 7px;
+}
+
+.attendeesListCntr{
+    margin-top: 20px;
+}
+
+.attendeeListItem{
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.attendeeListItem:not(:first-of-type){
+    margin-left: 10px;
+}
+
+.cancel{
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.scheduleMeeting{
+    margin-top: 30px;
+}

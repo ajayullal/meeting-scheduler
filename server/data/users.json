@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "firstName": "Test",
+    "lastName": "Test",
+    "email": "test@test.com",
+    "password": "abc123",
+    "meetings": [
+      {
+        "id": 1,
+        "name": "Oracle Interview, Frontend Engineering",
+        "date": "20-11-2021",
+        "description": "",
+        "attendees": [
+          { "id": 1637414343177, "email": "test@test.com" }
+        ]
+      }
+    ]
+  }
+]

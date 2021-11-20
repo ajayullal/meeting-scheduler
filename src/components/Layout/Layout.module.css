@@ -1,0 +1,63 @@
+.header {
+  height: 66px;
+  background-color: rgb(51, 51, 51);
+}
+
+.layoutContainer {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.nav {
+  flex-basis: 15%;
+  background: #fafbfc;
+  border: 1px solid rgb(225, 228, 232);
+}
+
+.navMenu {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navItem {
+  list-style-type: none;
+  margin: 0px;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(225, 228, 232);
+}
+
+.navLink {
+  padding: 20px;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.navLink:visited{
+    color: inherit;
+}
+
+.navItem:hover {
+  background: rgb(225, 228, 232);
+}
+
+.navItemActive {
+  background: #cacdd1;
+}
+
+.main {
+  flex-basis: 85%;
+  margin-left: 35px;
+}
